@@ -14,4 +14,5 @@ Pour exécuter le code pour prédire les noeuds des pays ou des villes, commente
 Pour faire la prédction de liens, nous avons utilisé un VGAE car il s'agit d'un modèle souvent utilisé pour la prédiction de liens manquants. Dans notre modèle, nous utilisons deux couches GCN. Si on retire une couche, les performances sont moins bonnes: on retrouve moins de lien et le score de précision baisse fortement. Si on rajoute une couche en plus, les calculs sont plus long pour un résultat quasi-identique avec 2 couches.
 
 ## Utilisation de l'IA générative
-Utilisation de l'IA de le part de Rayen LAARIF pour resumer le TP et rattraper les lacunes après rejoindre le groupe 2 semaines en retard.
+Utilisation de Claude de le part de Rayen LAARIF pour resumer le TP et rattraper les lacunes après rejoindre le groupe 2 semaines en retard.
+Exemple de Prompt: Expliquer cellule par cellule l'avancement sur le TP.
