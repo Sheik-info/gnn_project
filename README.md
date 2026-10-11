@@ -10,6 +10,10 @@ Le lien du projet: [Projet GNN](https://github.com/Sheik-info/gnn_project)
 Ouvrir le projet dans un Google Collab. </br>
 Pour exécuter le code pour prédire les noeuds des pays ou des villes, commenter la cellule non-concernée.
 
+Pour tester la prédiction de liens sur le nom de la viller commenter la cellule de code num 6
+et décommenter la cellule de code numéro 7. Et des instructions ont été laissé sur la cellule
+de code numéro 8 si on veut deviner les liens sur les pays ou sur les villes.
+
 ## Ablation study
 Pour faire la prédction de liens, nous avons utilisé un VGAE car il s'agit d'un modèle souvent utilisé pour la prédiction de liens manquants. Dans notre modèle, nous utilisons deux couches GCN. Si on retire une couche, les performances sont moins bonnes: on retrouve moins de lien et le score de précision baisse fortement. Si on rajoute une couche en plus, les calculs sont plus long pour un résultat quasi-identique avec 2 couches.
 
